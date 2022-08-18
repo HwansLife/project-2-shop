@@ -1,7 +1,7 @@
 export const sliderItems = [
   {
     id: 1,
-    img: "https://i.ibb.co/XsdmR2c/1.png",
+    img: "https://www.prada.com/content/dam/pradabkg_products/U/UCS/UCS418/1XV2F0009/UCS418_1XV2_F0009_S_221_MDF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.400.500.webp",
     title: "SUMMER SALE",
     desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
     bg: "f5fafd",
@@ -50,7 +50,7 @@ export const popularProducts = [
   },
   {
     id:2,
-    img:"https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
+    img:"https://www.prada.com/content/dam/pradabkg_products/U/UCS/UCS414/109PF0P41/UCS414_109P_F0P41_S_221_MDF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.400.500.webp",
   },
   {
     id:3,
@@ -70,7 +70,7 @@ export const popularProducts = [
   },
   {
     id:7,
-    img:"https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
+    img:"https://www.prada.com/content/dam/pradabkg_products/U/UCS/UCS339/10P3F0049/UCS339_10P3_F0049_S_211_MDF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.400.500.webp",
   },
   {
     id:8,
