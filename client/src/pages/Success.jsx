@@ -1,13 +1,16 @@
-import React from 'react'
-import { useLocation } from 'react-router';
+import React from "react";
+import { useLocation } from "react-router";
+import { useDispatch } from "react-redux";
+import { cartinit } from "../redux/cartRedux";
 
-const Success = () => {
-    const location = useLocation();
 
-    console.log(location);
-  return (
-    <div>Success</div>
-  )
-}
+const Success = (props) => {
+  const location = useLocation();
+  const dispatch = useDispatch();
 
-export default Success
+  console.log(location);
+  dispatch(cartinit(props));
+  return <div>Success</div>;
+};
+
+export default Success;

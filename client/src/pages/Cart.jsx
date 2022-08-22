@@ -10,6 +10,7 @@ import StripeCheckout from "react-stripe-checkout";
 import {userRequest} from '../requestMethods';
 import { useHistory } from "react-router-dom";
 
+const KEY = process.env.REACT_APP_STRIPE;
 
 const Container = styled.div``;
 const Wrapper = styled.div`
@@ -142,18 +143,17 @@ const SummaryButton = styled.button`
   font-weight: 600;
 `;
 
-const KEY = process.env.REACT_APP_STRIPE;
-
-
 const Cart = () => {
   const cart = useSelector((state) => state.cart);
   const [stripeToken, setStripeToken] = useState(null);
   const history = useHistory();
   
-  console.log(KEY);
+  
   const onToken = (token) => {
     setStripeToken(token);
     console.log(token);
+    console.log(KEY);
+    
   };
   useEffect(() => {
     const makeRequest = async () => {
