@@ -151,9 +151,6 @@ const Cart = () => {
   
   const onToken = (token) => {
     setStripeToken(token);
-    console.log(token);
-    console.log(KEY);
-    
   };
   useEffect(() => {
     const makeRequest = async () => {

@@ -91,6 +91,7 @@ const Login = () => {
           />
           <Input
             placeholder="password"
+            type="password"
             onChange={(e) => setPassword(e.target.value)}
           />
           <Button onClick={handleClick} disabled={isFetching}>
